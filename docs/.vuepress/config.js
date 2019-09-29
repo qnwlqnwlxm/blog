@@ -16,7 +16,29 @@ module.exports = {
         path: '/ApacheNiFi/', // optional, which should be a absolute path.
         collapsable: true, // optional, defaults to true
         sidebarDepth: 1, // optional, defaults to 1
-        children: ['/']
+        // children: ['/ApacheNiFi/Processor/', '/ApacheNiFi/ControllerService/']
+        children: [
+          {
+            title: 'NiFi Custom Processor', // required
+            path: '/ApacheNiFi/Processor/', // optional, which should be a absolute path.
+            collapsable: true, // optional, defaults to true
+            sidebarDepth: 1, // optional, defaults to 1
+            children: [
+              {
+                title: '프로젝트 생성', // required
+                path: '/ApacheNiFi/Processor/make-project', // optional, which should be a absolute path.
+                collapsable: true, // optional, defaults to true
+                sidebarDepth: 1 // optional, defaults to 1
+              }
+            ]
+          },
+          {
+            title: 'NiFi Custom ControllerService', // required
+            path: '/ApacheNiFi/ControllerService/', // optional, which should be a absolute path.
+            collapsable: true, // optional, defaults to true
+            sidebarDepth: 1 // optional, defaults to 1
+          }
+        ]
       },
       {
         title: 'Spring', // required
