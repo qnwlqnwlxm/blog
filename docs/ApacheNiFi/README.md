@@ -51,7 +51,7 @@ Write-Ahead Log로 FlowFile의 속성과 상태값을 추적 기록하는 저장
 
 ### Content Repository
 
-Pluggable Repo입니다. FlowFile의 실제 Content bytes가 저장된 위치입니다. 여러 디스크에 분산 저장이 가능합니다.(실제로 이런 경우는 거의 없을듯..) Content는 무겁기 때문에 FlowFile이동 시 실제 Content는 이동하지 않고, 참조값만 같습니다
+Pluggable Repo입니다. FlowFile의 실제 Content bytes가 저장된 위치입니다. 여러 디스크에 분산 저장이 가능합니다.(실제로 이런 경우는 거의 없을듯..) Content는 무겁기 때문에 NiFi 가 FlowFile을 다룰 때 실제 Content는 메모리에 로딩하지 않고, 참조값(disk의 file path)만 가지게 됩니다.
 
 ### Provenance Repository
 
@@ -76,7 +76,7 @@ Cluster의 변경사항은 모든 Node에 복제되어 각 노드는 같은 Data
 [NiFi download page](https://nifi.apache.org/download.html)  
 위의 주소에 접속하여 nifi-1.9.2-bin.tar.gz 또는 zip파일을 받습니다.
 
-다운로드 받은 파일의 압축을 해제하면 다음과 같은 폴더가 있습니다.
+다운로드 받은 파일의 압축을 해제하면 다음과 같은 폴더가 있습니다.  
 ![NiFi directory tree](./images/nifi-dir-tree.png)
 
 ### NiFi 실행
