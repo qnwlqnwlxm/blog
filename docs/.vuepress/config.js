@@ -2,7 +2,17 @@ module.exports = {
   title: 'MBIO blog',
   description: 'mbio 개발 관련 블로그',
   base: '/blog/',
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons'
+      }
+    ]
+  ],
   plugins: ['@vuepress/back-to-top'],
   themeConfig: {
     sidebar: [
@@ -26,9 +36,7 @@ module.exports = {
             children: [
               {
                 title: '프로젝트 생성', // required
-                path: '/ApacheNiFi/Processor/make-project', // optional, which should be a absolute path.
-                collapsable: true, // optional, defaults to true
-                sidebarDepth: 1 // optional, defaults to 1
+                path: '/ApacheNiFi/Processor/make-project'
               }
             ]
           },
@@ -60,6 +68,7 @@ module.exports = {
         text: 'GitHub',
         link: 'https://github.com/qnwlqnwlxm/'
       }
-    ]
+    ],
+    searchPlaceholder: 'Search...'
   }
 }

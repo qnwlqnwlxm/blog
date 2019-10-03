@@ -5,7 +5,9 @@
     "deploy": "git subtree push --prefix docs/.vuepress/dist origin gh-pages"
   },
   "devDependencies": {
+    "@mdi/font": "^4.4.95",
     "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
-    "vuepress": "^1.1.0"
+    "vuepress": "^1.1.0",
+    "vuetify": "^2.1.0"
   }
 }
