@@ -1,10 +1,10 @@
 ---
 home: true
 heroImage: logo.png
-heroText: 블로그 개발중
-tagline: 블로그 개발중
+heroText: MBIO 개발 블로그
+tagline: 경험에 기반하여, 틀린 내용이 있을 수 있습니다.
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /intro/
 features:
   - title: Apache NiFi
     details: Apache NiFi study 자료.

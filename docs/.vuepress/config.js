@@ -7,8 +7,8 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
-        title: 'guide', // required
-        path: '/guide', // optional, which should be a absolute path.
+        title: 'intro', // required
+        path: '/intro', // optional, which should be a absolute path.
         collapsable: true // optional, defaults to true
       },
       {
@@ -53,8 +53,8 @@ module.exports = {
     ],
     nav: [
       {
-        text: 'Guide',
-        link: '/guide'
+        text: 'Intro',
+        link: '/intro'
       },
       {
         text: 'GitHub',

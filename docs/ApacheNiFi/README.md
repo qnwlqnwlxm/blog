@@ -1,6 +1,7 @@
 ---
 prev: ../guide
 next: ./Processor/
+disqus: true
 ---
 
 # Apache NiFi

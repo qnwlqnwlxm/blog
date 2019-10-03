@@ -1,6 +1,7 @@
 ---
 prev: ../
 next: ./make-project
+disqus: true
 ---
 
 # NiFi Custom Processor 개발 가이드
