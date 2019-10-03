@@ -1,4 +1,5 @@
 ---
+prev: ./
 disqus: true
 ---
 
@@ -76,6 +77,6 @@ sh $NIFI_HOME/bin/nifi.sh start
 
 ![nifi-myprocessor-add](../images/nifi-myprocessor-add.png)
 
-위 그림처럼 MyProcessor가 보인다면 제대로 배포 된겁니다.
+위 그림처럼 MyProcessor가 보이면 배포 성공입니다.
 
 축하합니다. 첫 번째 NiFi Custom Processor를 추가했습니다.
