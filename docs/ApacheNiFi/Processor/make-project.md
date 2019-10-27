@@ -1,5 +1,6 @@
 ---
 prev: ./
+next: ./kaggle-bitcoin-1.md
 disqus: true
 ---
 

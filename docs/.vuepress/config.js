@@ -13,7 +13,12 @@ module.exports = {
       }
     ]
   ],
-  plugins: ['@vuepress/back-to-top'],
+  plugins: {
+    '@vuepress/back-to-top': true,
+    '@vuepress/plugin-medium-zoom': {
+        selector: 'img'
+    },
+},
   themeConfig: {
     sidebar: [
       {
@@ -32,11 +37,23 @@ module.exports = {
             title: 'NiFi Custom Processor', // required
             path: '/ApacheNiFi/Processor/', // optional, which should be a absolute path.
             collapsable: true, // optional, defaults to true
-            sidebarDepth: 1, // optional, defaults to 1
+            sidebarDepth: 0, // optional, defaults to 1
             children: [
               {
                 title: '프로젝트 생성', // required
-                path: '/ApacheNiFi/Processor/make-project'
+                path: '/ApacheNiFi/Processor/make-project',
+              },
+              {
+                title: 'kaggle-bitcoin-1', // required
+                path: '/ApacheNiFi/Processor/kaggle-bitcoin-1',
+              },
+              {
+                title: 'kaggle-bitcoin-2', // required
+                path: '/ApacheNiFi/Processor/kaggle-bitcoin-2',
+              },
+              {
+                title: 'kaggle-bitcoin-3', // required
+                path: '/ApacheNiFi/Processor/kaggle-bitcoin-3',
               }
             ]
           },
