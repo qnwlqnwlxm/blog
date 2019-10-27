@@ -1,5 +1,6 @@
 ---
 prev: ./kaggle-bitcoin-2
+next: ./kaggle-bitcoin-4
 disqus: true
 ---
 
@@ -599,11 +600,18 @@ public class BitcoinHistoryTest {
 
 ![BitcoinHistoryTest](../images/BitcoinHistoryTest.png)
 
+
+NiFi에 배포 후에 테스트를 해보면 아래 와같이 3개의 프로세서로 csv파일을 xml과 json형태로 포맷변환을 해낸것을 확인할 수 있습니다.
+
+![BitcoinHistoryDeploy](../images/BitcoinHistoryDeploy.png)
+![BitcoinHistory-json](../images/BitcoinHistory-json.png)
+![BitcoinHistory-xml](../images/BitcoinHistory-xml.png)
+
   
 변경사항은 아래에서 확인할 수 있습니다.
 
-https://github.com/qnwlqnwlxm/BitcoinHistoryProcessor/pull/4/files
+[https://github.com/qnwlqnwlxm/BitcoinHistoryProcessor/pull/4/files](https://github.com/qnwlqnwlxm/BitcoinHistoryProcessor/pull/4/files)
 
 
 전체소스는 아래 에서 다운로드 가능합니다.
-https://github.com/qnwlqnwlxm/BitcoinHistoryProcessor/tree/kaggle-bitcoin-3
+[https://github.com/qnwlqnwlxm/BitcoinHistoryProcessor/tree/kaggle-bitcoin-3](https://github.com/qnwlqnwlxm/BitcoinHistoryProcessor/tree/kaggle-bitcoin-3)

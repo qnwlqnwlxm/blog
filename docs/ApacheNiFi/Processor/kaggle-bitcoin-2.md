@@ -432,8 +432,8 @@ public class PojoTest {
   
 변경사항은 아래에서 확인할 수 있습니다.
 
-https://github.com/qnwlqnwlxm/BitcoinHistoryProcessor/pull/2/files
+[https://github.com/qnwlqnwlxm/BitcoinHistoryProcessor/pull/2/files](https://github.com/qnwlqnwlxm/BitcoinHistoryProcessor/pull/2/files)
 
 
 전체소스는 아래 에서 다운로드 가능합니다.
-https://github.com/qnwlqnwlxm/BitcoinHistoryProcessor/tree/kaggle-bitcoin-2
+[https://github.com/qnwlqnwlxm/BitcoinHistoryProcessor/tree/kaggle-bitcoin-2](https://github.com/qnwlqnwlxm/BitcoinHistoryProcessor/tree/kaggle-bitcoin-2)

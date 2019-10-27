@@ -54,6 +54,10 @@ module.exports = {
               {
                 title: 'kaggle-bitcoin-3', // required
                 path: '/ApacheNiFi/Processor/kaggle-bitcoin-3',
+              },
+              {
+                title: 'kaggle-bitcoin-4', // required
+                path: '/ApacheNiFi/Processor/kaggle-bitcoin-4',
               }
             ]
           },
