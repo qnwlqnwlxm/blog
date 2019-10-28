@@ -65,7 +65,25 @@ module.exports = {
             title: 'NiFi Custom ControllerService', // required
             path: '/ApacheNiFi/ControllerService/', // optional, which should be a absolute path.
             collapsable: true, // optional, defaults to true
-            sidebarDepth: 1 // optional, defaults to 1
+            sidebarDepth: 0, // optional, defaults to 1
+            children: [
+              {
+                title: '프로젝트 생성', // required
+                path: '/ApacheNiFi/ControllerService/make-project-controller-service',
+              },
+              {
+                title: 'HikariCPControllerService-1', // required
+                path: '/ApacheNiFi/ControllerService/HikariCPControllerService-1',
+              },
+              {
+                title: 'HikariCPControllerService-2', // required
+                path: '/ApacheNiFi/ControllerService/HikariCPControllerService-2',
+              },
+              {
+                title: 'HikariCPControllerService-3', // required
+                path: '/ApacheNiFi/ControllerService/HikariCPControllerService-3',
+              }
+            ]
           }
         ]
       },

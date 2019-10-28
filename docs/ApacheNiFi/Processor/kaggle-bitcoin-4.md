@@ -265,6 +265,11 @@ JUnit 테스트를 통해 정상처리되었는지 확인합니다.
 NiFi에 배포 후에 테스트를 해서 db에 정상적으로 적재되었는지 확인합니다.
 
 test를 위해 postgre sql에 table을 생성합니다.
+
+:::tip
+PostgreSQL 다운로드가 필요하신 분은 [PostgreSQL](https://www.postgresql.org/download/) 이곳에서 다운로드 가 가능합니다.
+:::
+
 ![create-table](../images/create-table.png)
 ![create-table-column](../images/create-table-column.png)
 
