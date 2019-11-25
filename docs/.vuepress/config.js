@@ -88,6 +88,30 @@ module.exports = {
         ]
       },
       {
+        title: 'Book Summary',
+        path: '/Book/',
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+          {
+            title: 'JAVA 프로그래밍 면접 이렇게 준비한다',
+            path: '/Book/JAVA_INTERVIEW',
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+              {
+                title: 'Chapter4. 기본알고리즘 작성하기',
+                path: '/Book/JAVA_INTERVIEW/04',
+              },
+              {
+                title: 'Chapter5. 자료구조',
+                path: '/Book/JAVA_INTERVIEW/05',
+              }
+            ]
+          }
+        ]
+      },
+      {
         title: 'Spring', // required
         path: '/Spring/', // optional, which should be a absolute path.
         collapsable: true // optional, defaults to true
